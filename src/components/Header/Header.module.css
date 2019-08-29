@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	padding-left: 15px;
+	background-color: #344ba8;
+	color: #ffcc00;
+	font-size: 150%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 15px;
+	margin: 5px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: row;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	padding-right: 10px;
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+}
