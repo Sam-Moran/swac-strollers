@@ -7,14 +7,14 @@
 	font-size: 150%;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	border-radius: 15px;
-	margin: 5px;
+	margin-bottom: 5px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .main {
 	display: flex;
 	flex-direction: column;
+	padding: 5px;
 }
 
 .wrap {
@@ -30,4 +30,14 @@ h1 {
 h5 {
 	margin: 0;
 	padding: 0;
+}
+
+@media (max-width: 420px) {
+	.logo {
+		display: none;
+	}
+}
+
+.links {
+	float: right;
 }

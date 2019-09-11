@@ -1,8 +1,9 @@
 .feeds {
 	display: flex;
 	flex-direction: column;
-	margin-right: 5px;
+	/* margin-right: 5px; */
 	background-color: papayawhip;
 	align-content: center;
 	align-items: center;
+	margin-right: 5px;
 }

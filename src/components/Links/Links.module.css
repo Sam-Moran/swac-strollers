@@ -1,3 +1,17 @@
 .links {
 	margin-right: 15px;
 }
+
+.link {
+	color: #ffcc00;
+	text-decoration-line: none;
+	padding: 5px;
+	border-radius: 15px;
+}
+.link:hover {
+	text-decoration-line: underline;
+}
+
+.link:visited {
+	font-weight: bold;
+}

@@ -5,7 +5,7 @@ import styles from "./Image.module.css";
 const Image = () => {
 	return (
 		<div className={styles.group}>
-			<img src={group} alt="Group" />
+			<img className={styles.image} src={group} alt="Group" />
 		</div>
 	);
 };

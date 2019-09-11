@@ -5,10 +5,8 @@
 	background-color: #344ba8;
 	color: #ffcc00;
 	font-size: 150%;
-	padding-bottom: 5px;
 	padding-top: 5px;
-	border-radius: 15px;
-	margin: 5px;
+	margin-top: 5px;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;

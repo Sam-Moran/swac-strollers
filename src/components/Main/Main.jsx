@@ -10,10 +10,11 @@ const Main = () => {
 			<Image />
 			<section className={styles.body}>
 				<Welcome />
+
 				<SideBar />
 			</section>
 		</div>
 	);
-};
+	};
 
 export default Main;

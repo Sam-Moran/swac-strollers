@@ -1,7 +1,11 @@
-img {
-	/* max-width: 99%; */
+.group {
 	height: auto;
 	width: auto;
-	margin: 5px;
-	border-radius: 15px;
+	max-width: 100%;
+
+	margin: auto;
+}
+
+img {
+	max-width: 100%;
 }
