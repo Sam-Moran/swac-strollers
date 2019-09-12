@@ -1,25 +1,35 @@
 .header {
+	/* max-height: 400px; */
+
 	display: flex;
 	flex-direction: row;
-	padding-left: 15px;
-	background-color: #344ba8;
-	color: #ffcc00;
+	/* padding-left: 15px; */
+	/* background-color: #344ba8;
+	background-image: url("../../images/group.png");
+	background-repeat: no-repeat;
+	background-size: auto; */
+	color: #344ba8;
 	font-size: 150%;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	margin-bottom: 5px;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	position: relative;
 }
 .main {
 	display: flex;
 	flex-direction: column;
 	padding: 5px;
+	/* background-color: #344ba8; */
 }
 
 .wrap {
 	display: flex;
 	flex-direction: row;
+	/* background-color: #344ba8; */
+	padding: 10px;
+	border-radius: 10px;
 }
 h1 {
 	margin: 0;
@@ -40,4 +50,10 @@ h5 {
 
 .links {
 	float: right;
+}
+
+.logo {
+	background-color: #344ba8;
+	padding: 7px;
+	border-radius: 5px;
 }

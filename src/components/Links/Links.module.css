@@ -3,10 +3,11 @@
 }
 
 .link {
-	color: #ffcc00;
+	/* color: #ffcc00; */
+	color: #344ba8;
 	text-decoration-line: none;
 	padding: 5px;
-	border-radius: 15px;
+	/* border-radius: 15px; */
 }
 .link:hover {
 	text-decoration-line: underline;

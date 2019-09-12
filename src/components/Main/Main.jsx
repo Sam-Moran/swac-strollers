@@ -7,7 +7,7 @@ import Welcome from "../Welcome/Welcome";
 const Main = () => {
 	return (
 		<div className={styles.main}>
-			<Image />
+			{/* <Image /> */}
 			<section className={styles.body}>
 				<Welcome />
 
@@ -15,6 +15,6 @@ const Main = () => {
 			</section>
 		</div>
 	);
-	};
+};
 
 export default Main;
