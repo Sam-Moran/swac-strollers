@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import styles from "./Join.module.css";
 
 import React, { Component } from "react";

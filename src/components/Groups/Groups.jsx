@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import styles from "./Groups.module.css";
 
 import React, { Component } from "react";
