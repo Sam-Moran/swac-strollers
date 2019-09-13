@@ -38,7 +38,7 @@ class Contact extends Component {
               </div>
               <div class="col-75">
                 <input
-                  type="text"
+                  type="email"
                   id="email"
                   name="email"
                   placeholder="example@google.com"
@@ -48,10 +48,11 @@ class Contact extends Component {
             </div>
             <div class="row">
               <div class="col-25">
-                <label for="message">Message</label>
+                <label for="message">Message:</label>
               </div>
               <div class="col-75">
                 <textarea
+                  type="text"
                   id="message"
                   name="message"
                   placeholder="Your message..."

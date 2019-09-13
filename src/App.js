@@ -12,25 +12,25 @@ import styles from "./App.module.css";
 import { Router } from "@reach/router";
 
 class App extends Component {
-	render() {
-		return (
-			<div className={styles.page}>
-				<Header />
-				<div className={styles.image}>
-					<Image />
-				</div>
+  render() {
+    return (
+      <div className={styles.page}>
+        <Header />
+        <div className={styles.image}>
+          <Image />
+        </div>
 
-				<Router primary={false}>
-					<Main path="/" />
-					<Groups path="/groups" />
-					<Join path="/join" />
-					<Contact path="/contact" />
-				</Router>
+        <Router primary={false}>
+          <Main path="/" />
+          <Groups path="/groups" />
+          <Join path="/join" />
+          <Contact path="/contact" />
+        </Router>
 
-				<Footer />
-			</div>
-		);
-	}
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;

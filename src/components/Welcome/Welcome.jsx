@@ -16,11 +16,6 @@ const Welcome = () => {
         you're wanting to run your first Parkrun or dreaming of that half
         marathon
         <strong> we are the club for you.</strong>
-        <br />
-        <br />
-        We open to all you want to run, with two sessions a week ran by
-        qualified (Leadership in Running Fitness) volunteers we are the group
-        for you.
       </p>
     </div>
   );
