@@ -58,6 +58,9 @@ input[type="submit"]:hover {
   width: 75%;
   margin-top: 6px;
 }
+.text {
+  padding: 5px;
+}
 
 /* Clear floats after the columns */
 .row:after {

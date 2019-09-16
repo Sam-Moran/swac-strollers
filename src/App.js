@@ -14,20 +14,22 @@ import { Router } from "@reach/router";
 class App extends Component {
   render() {
     return (
-      <div className={styles.page}>
-        <Header />
-        <div className={styles.image}>
-          <Image />
+      <div className={styles.background}>
+        <div className={styles.page}>
+          <Header />
+          <div className={styles.image}>
+            <Image />
+          </div>
+
+          <Router primary={false}>
+            <Main path="/" />
+            <Groups path="/groups" />
+            <Join path="/join" />
+            <Contact path="/contact" />
+          </Router>
+
+          <Footer />
         </div>
-
-        <Router primary={false}>
-          <Main path="/" />
-          <Groups path="/groups" />
-          <Join path="/join" />
-          <Contact path="/contact" />
-        </Router>
-
-        <Footer />
       </div>
     );
   }

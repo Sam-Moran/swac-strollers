@@ -6,7 +6,7 @@ import React, { Component } from "react";
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div class="text">
         <h1>Contact us!</h1>
         <p>
           Any questions? Pop a messsage into the form below and we'll get back

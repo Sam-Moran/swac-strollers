@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import styles from "./Groups.module.css";
 import { Link } from "@reach/router";
 
@@ -7,7 +6,7 @@ import React, { Component } from "react";
 class Groups extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.text}>
         <h1>Groups</h1>
         <p>
           We have two groups through the week, you are welcome to join any and
@@ -20,7 +19,8 @@ class Groups extends Component {
         <h3>Tuesday's</h3>
         <p>
           Malcom is the run leader for this group which meets every Tuesday
-          morning at 9:30am. 5k run & 3k walk/run (jeffing).
+          morning at 9:30am. 5k run & 3k walk/run (jeffing). No better way to
+          spend a weekday morning.
           <br />
           <br />
           Location: Meet under the pier opposite McDonalds (PR8 1SA). Free
@@ -29,7 +29,7 @@ class Groups extends Component {
         <h3>Thursdays</h3>
         <p>
           Sarah, Michelle and Malcolm are the run leaders for our main Strollers
-          session of the week.
+          session of the week. With a
         </p>
       </div>
     );
